@@ -14,10 +14,12 @@
   Then alert your name using dot notation.
 */
 
-var me = {name:"Andrew",age:29};
+var me = {
+  name: "Andrew",
+  age: 29,
+};
+
 alert(me.name);
-
-
 
 ////////// PROBLEM 2 //////////
 
@@ -26,16 +28,21 @@ alert(me.name);
   Have the values to those keys be your favorite thing in that category.
 */
 
-var favoriteThings = {band:"Chris Stapleton",food: "pizza",person: "Mom", book: "Star Wars", movie: "Cool Runnings", holiday: "Christmas"};
-
-
+var favoriteThings = {
+  band: "Panic at the Disco",
+  food: "Pizza",
+  person: "Mom and Dad",
+  book: "The Magicians",
+  movie:"Cool Runnings",
+  holiday: "Christmas",
+};
 
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
 favoriteThings.car = "4runner";
-favoriteThings.brand = "Nike";
+favoriteThings.brand = "ApeMan";
 
 
 /*
